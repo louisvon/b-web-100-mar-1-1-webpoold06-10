@@ -1,3 +1,3 @@
-export function countGs (str){
-    return str.split ('G').length -1;
+export function countGs(string) {
+    return string.toUpperCase().split('G').length - 1;
 }
